@@ -11,12 +11,6 @@
 		<name>Preba</name>
 	</parent>
 
-	<groupId>com.prebakb</groupId>
-	<artifactId>Preba</artifactId>
-	<version>1.0-SNAPSHOT</version>
-	<packaging>war</packaging>
-	<name>Preba</name>
-
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
