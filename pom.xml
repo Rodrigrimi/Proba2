@@ -19,14 +19,14 @@
 			<groupId>genexus</groupId>
 			<artifactId>bcprov-jdk15on-1.64</artifactId>
 			<scope>system</scope>
-			<systemPath>${project.basedir}/WEB-INF/lib/bcprov-jdk15on-1.64.jar</systemPath>
+			<systemPath>${project.basedir}/Preba/WEB-INF/lib/bcprov-jdk15on-1.64.jar</systemPath>
 		</dependency>
 		<!-- commons-codec-1.9.jar -->
 		<dependency>
 			<groupId>genexus</groupId>
 			<artifactId>commons-codec-1.9</artifactId>
 			<scope>system</scope>
-			<systemPath>${project.basedir}/WEB-INF/lib/commons-codec-1.9.jar</systemPath>
+			<systemPath>${project.basedir}/Preba/WEB-INF/lib/commons-codec-1.9.jar</systemPath>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/org.apache.commons/commons-collections4 -->
 		<dependency>
