@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" 
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-	<modelVersion>4.0.0</modelVersion>
+		<modelVersion>4.0.0</modelVersion>
 		<groupId>com.prebakb</groupId>
 		<artifactId>Preba</artifactId>
 		<version>1.0-SNAPSHOT</version>
@@ -13,27 +13,20 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 
-
-	<dependencies>	   
-		<dependency>
-			<groupId>javax.servlet</groupId>
-			<artifactId>javax.servlet-api</artifactId>
-			<version>${servlet.api.version}</version>
-			<scope>provided</scope>
-		</dependency>
+	<dependencies>
 		<!-- bcprov-jdk15on-1.64.jar -->
 		<dependency>
 			<groupId>genexus</groupId>
 			<artifactId>bcprov-jdk15on-1.64</artifactId>
 			<scope>system</scope>
-			<systemPath>${project.basedir}/lib/bcprov-jdk15on-1.64.jar</systemPath>
+			<systemPath>${project.basedir}/WEB-INF/lib/bcprov-jdk15on-1.64.jar</systemPath>
 		</dependency>
 		<!-- commons-codec-1.9.jar -->
 		<dependency>
 			<groupId>genexus</groupId>
 			<artifactId>commons-codec-1.9</artifactId>
 			<scope>system</scope>
-			<systemPath>${project.basedir}/Preba/WEB-INF/lib/commons-codec-1.9.jar</systemPath>
+			<systemPath>${project.basedir}/WEB-INF/lib/commons-codec-1.9.jar</systemPath>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/org.apache.commons/commons-collections4 -->
 		<dependency>
