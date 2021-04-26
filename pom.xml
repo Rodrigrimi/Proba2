@@ -12,14 +12,21 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
-
+	  <dependencies>
+	    <dependency>
+	      <groupId>javax.servlet</groupId>
+	      <artifactId>javax.servlet-api</artifactId>
+	      <version>${servlet.api.version}</version>
+	      <scope>provided</scope>
+	    </dependency>
+	  </dependencies>
 	<dependencies>
 		<!-- bcprov-jdk15on-1.64.jar -->
 		<dependency>
 			<groupId>genexus</groupId>
 			<artifactId>bcprov-jdk15on-1.64</artifactId>
 			<scope>system</scope>
-			<systemPath>${project.basedir}/Preba/WEB-INF/lib/bcprov-jdk15on-1.64.jar</systemPath>
+			<systemPath>${project.basedir}/lib/bcprov-jdk15on-1.64.jar</systemPath>
 		</dependency>
 		<!-- commons-codec-1.9.jar -->
 		<dependency>
