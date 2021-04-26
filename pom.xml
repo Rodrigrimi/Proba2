@@ -12,15 +12,15 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
-	  <dependencies>
-	    <dependency>
-	      <groupId>javax.servlet</groupId>
-	      <artifactId>javax.servlet-api</artifactId>
-	      <version>${servlet.api.version}</version>
-	      <scope>provided</scope>
-	    </dependency>
-	  </dependencies>
-	<dependencies>
+
+
+	<dependencies>	   
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>javax.servlet-api</artifactId>
+			<version>${servlet.api.version}</version>
+			<scope>provided</scope>
+		</dependency>
 		<!-- bcprov-jdk15on-1.64.jar -->
 		<dependency>
 			<groupId>genexus</groupId>
