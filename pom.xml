@@ -14,12 +14,6 @@
 
 	<dependencies>
 		<!-- bcprov-jdk15on-1.64.jar -->
-		<dependency>
-			<groupId>genexus</groupId>
-			<artifactId>bcprov-jdk15on-1.64</artifactId>
-			<scope>system</scope>
-			<systemPath>${project.basedir}/lib/bcprov-jdk15on-1.64.jar</systemPath>
-		</dependency>
 		<!-- commons-codec-1.9.jar -->
 
 		<!-- https://mvnrepository.com/artifact/net.sourceforge.jtds/jtds -->
