@@ -168,8 +168,9 @@
 			<systemPath>${project.basedir}/lib/GeneXusSecurity.jar</systemPath>
 			<version>1.0</version>
 		</dependency>
-	<dependencies>
 
+
+	</dependencies>
 	<build>
 		<pluginManagement>
 			<plugins>
