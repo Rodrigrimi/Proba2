@@ -208,6 +208,9 @@
 					<version>2.6</version>
 					<configuration>
 						<webResources>
+						    <resource>
+							<directory>${project.basedir}/Preba</directory>
+						    </resource>
 						</webResources>
 					</configuration>
 				</plugin>
