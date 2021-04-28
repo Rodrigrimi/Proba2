@@ -58,13 +58,6 @@
 			<artifactId>compiler</artifactId>
 			<version>0.8.18</version>
 		</dependency>
-		<!-- encoder-1.2.2.jar -->
-		<dependency>
-			<groupId>genexus</groupId>
-			<artifactId>encoder-1.2.2</artifactId>
-			<scope>system</scope>
-			<systemPath>${project.basedir}/lib/encoder-1.2.2.jar</systemPath>
-		</dependency>
 		<!-- encoder-jsp-1.2.2.jar -->
 		<dependency>
 			<groupId>genexus</groupId>
@@ -112,13 +105,6 @@
 			<artifactId>gxmaps</artifactId>
 			<scope>system</scope>
 			<systemPath>${project.basedir}/lib/gxmaps.jar</systemPath>
-		</dependency>
-		<!-- jackson-annotations-2.11.0.jar -->
-		<dependency>
-			<groupId>genexus</groupId>
-			<artifactId>jackson-annotations-2.11.0</artifactId>
-			<scope>system</scope>
-			<systemPath>${project.basedir}/lib/jackson-annotations-2.11.0.jar</systemPath>
 		</dependency>
 		<!-- jackson-core-2.11.0.jar -->
 		<dependency>
