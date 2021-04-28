@@ -29,26 +29,7 @@
 			<version>1.2</version>
 		</dependency>
 		<!-- log4j-api-2.13.3.jar -->
-		<dependency>
-			<groupId>genexus</groupId>
-			<artifactId>log4j-api-2.13.3</artifactId>
-			<scope>system</scope>
-			<systemPath>${project.basedir}/lib/log4j-api-2.13.3.jar</systemPath>
-		</dependency>
-		<!-- log4j-core-2.13.3.jar -->
-		<dependency>
-			<groupId>genexus</groupId>
-			<artifactId>log4j-core-2.13.3</artifactId>
-			<scope>system</scope>
-			<systemPath>${project.basedir}/lib/log4j-core-2.13.3.jar</systemPath>
-		</dependency>
-		<!-- xercesImpl-2.12.0.jar -->
-		<dependency>
-			<groupId>genexus</groupId>
-			<artifactId>xercesImpl-2.12.0</artifactId>
-			<scope>system</scope>
-			<systemPath>${project.basedir}/lib/xercesImpl-2.12.0.jar</systemPath>
-		</dependency>
+
 		<!-- https://mvnrepository.com/artifact/xml-apis/xml-apis -->
 		<dependency>
 			<groupId>xml-apis</groupId>
